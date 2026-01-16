@@ -1,0 +1,5 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install fastapi uvicorn sqlalchemy pymysql python-dotenv cryptography
+uvicorn main:app --reload
+
